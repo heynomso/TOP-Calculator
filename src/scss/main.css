@@ -1,22 +1,20 @@
-$primary-color: steelblue;
-
-body{
-  background-color: $primary-color;
+body {
+  background-color: steelblue;
 }
 
-.App{
+.App {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.calc-wrapper{
+.calc-wrapper {
   background-color: white;
   width: 400px;
   border-radius: 16px;
 }
 
-.button-wrapper{
+.button-wrapper {
   height: 4em;
   display: flex;
   justify-content: center;
@@ -27,6 +25,6 @@ body{
   flex: 1;
 }
 
-.row{
+.row {
   display: flex;
-}
+}/*# sourceMappingURL=main.css.map */
