@@ -1,8 +1,12 @@
 import '../scss/main.scss';
 
-const Button = () => {
+const Button = ({symbol, color, handleClick}) => {
   return(
-    <div className='button-wrapper'>1</div>
+    <div
+    onClick ={ () => handleClick(symbol)}
+    className='button-wrapper' style ={{backgroundColor: color}}>
+      {symbol}
+    </div>
   )
 };
 
